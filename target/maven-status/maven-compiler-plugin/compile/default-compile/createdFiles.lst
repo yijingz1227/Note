@@ -1,0 +1,3 @@
+stock\ApplicationConfiguration.class
+stock\DispatcherServletInitializer.class
+stock\controllers\HomeControllers.class
