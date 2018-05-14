@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<!DOCTYPE HTML>
+<!DOCTYPE HTML5>
 <html lang="en">
  
 <head>
@@ -23,9 +23,35 @@
         <a id="logout-link" href="logout">Logout</a>
         <i id="avatar" class="avatar fa fa-user fa-2x"></i> <!-- fa fa-user credits to font-awesome -->
 	</header>
+		
+	
 	<section class="main-section">
-		<p>Stuff</p>
+		<h1>Mind Palace</h1>
+		<div class="search-wrapper">
+			<input type="text" placeholder="Search keyword...">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+		
 	</section>
+		
+	<footer class="footer">
+        <p class="title" id="about">What this website is for?</p>
+        <p>"To help you store information that you have learned."</p>
+        <ul>
+            <li>
+                <p><i class="fa fa-map-o fa-2x"></i></p>
+                <p>330 De Neve Drive</p>
+            </li>
+            <li>
+                <p><i class="fa fa-envelope-o fa-2x" id="contact"></i></p>
+                <p><a href="mailto:yijingz1227@gmail.com" target="_top">mailto:yijingz1227@gmail.com</a></p>
+            </li>
+            <li>
+                <p><i class="fa fa-phone fa-2x"></i></p>
+                <p>+1 310 283 0371</p>
+            </li>
+        </ul>
+	</footer>
 	
 </body>
 </html>
